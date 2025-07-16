@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+.font-logo
+{
+  font-family: "Manufacturing Consent", system-ui;
+}
+
+*{
+     font-family: "Winky Rough", sans-serif;
+}
+@plugin './hero.ts';
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+@custom-variant dark (&:is(.dark *))
+
